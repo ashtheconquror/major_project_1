@@ -1,4 +1,4 @@
-if (process.env.NODE_ENV != "porduction") {
+if (process.env.NODE_ENV != "prduction") {
   require("dotenv").config();
 }
 
