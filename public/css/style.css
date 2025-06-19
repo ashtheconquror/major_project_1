@@ -1,0 +1,146 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-optical-sizing: auto !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  flex: 1;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: white;
+}
+
+.fa-compass {
+  color: #fe424d;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+}
+
+.f-info {
+  background-color: #f7f7f7;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 0.95rem;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.05);
+}
+/* Listing Cards */
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.listing-card:hover {
+  transform: scale(1.01);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover !important;
+  width: 100% !important;
+}
+
+.card-body {
+  padding: 0.5rem 1rem !important;
+}
+
+.card-text p {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.listing-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Card image hover effect */
+.card-image-overlay {
+  opacity: 0;
+}
+
+.card-image-overlay:hover {
+  opacity: 0.2;
+  background: white;
+}
+
+/* New & Edit buttons */
+.add-btn,
+.edit-btn {
+  background-color: #fe424d !important;
+  border: none !important;
+  color: white;
+}
+
+/* Show page */
+.show-img {
+  height: 30vh;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Map */
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.edit-preview-img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
